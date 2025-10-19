@@ -264,7 +264,7 @@ export const ContactSection = () => {
                 }}
               />
               
-              {/* Giant Shoe Placeholder - replace with your image */}
+              
               <motion.div
                 className="absolute inset-0 flex items-center justify-center"
                 animate={{
@@ -276,7 +276,7 @@ export const ContactSection = () => {
                   ease: "easeInOut"
                 }}
               >
-                {/* You can replace this with an actual shoe image */}
+                
                 <img 
                       src={contactShoe} 
                       alt="Contact Shoe" 
