@@ -1,11 +1,16 @@
 import type { Shoe } from '../types';
+import airjordan from '../assets/air-jordan-1.png';
+import superstar from '../assets/superstar.png';
+import airmax97 from '../assets/airmax-97.png';
+import forum from '../assets/forums-low.png';
+import blazer from '../assets/blazers.png';
 
 export const shoes: Shoe[] = [
   {
     id: 1,
     name: "Air Jordan 1",
     brand: "Nike",
-    image:"/src/assets/air-jordan-1.png",
+    image: airjordan,
     description: "The sneaker that started it all. Michael Jordan's signature shoe revolutionized basketball footwear and street culture.",
     year: "1985",
     colorScheme: {
@@ -19,7 +24,7 @@ export const shoes: Shoe[] = [
     id: 2,
     name: "Superstar",
     brand: "Adidas",
-    image:"/src/assets/superstar.png",
+    image: superstar,
     description: "From basketball courts to hip-hop stages, the shell-toe classic that defined generations of style.",
     year: "1969",
     colorScheme: {
@@ -33,7 +38,7 @@ export const shoes: Shoe[] = [
     id: 3,
     name: "Air Max 97",
     brand: "Nike",
-    image:"/src/assets/airmax-97.png",
+    image: airmax97,
     description: "Inspired by Japanese bullet trains, these waves of innovation brought full-length Air cushioning to the streets.",
     year: "1997",
     colorScheme: {
@@ -47,7 +52,7 @@ export const shoes: Shoe[] = [
     id: 4,
     name: "Forum",
     brand: "Adidas",
-    image:"/src/assets/forums-low.png",
+    image: forum,
     description: "High-top excellence from the hardwood. The X-strap design became an icon of 80s basketball culture.",
     year: "1984",
     colorScheme: {
@@ -61,7 +66,7 @@ export const shoes: Shoe[] = [
     id: 5,
     name: "Blazer Mid '77",
     brand: "Nike",
-    image:"/src/assets/blazers.png",
+    image: blazer,
     description: "Vintage basketball aesthetics meet modern street style. The exposed foam tongue and retro swoosh create timeless appeal.",
     year: "1977",
     colorScheme: {
