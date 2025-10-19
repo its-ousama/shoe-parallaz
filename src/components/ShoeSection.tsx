@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform, useSpring, useInView } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { useRef } from 'react';
 import type { Shoe } from '../types';
 
@@ -11,7 +11,7 @@ interface ShoeSectionProps {
   totalShoes: number;
 }
 
-export const ShoeSection = ({ shoe, index, totalShoes }: ShoeSectionProps) => {
+export const ShoeSection = ({ shoe, index }: ShoeSectionProps) => {
   const sectionRef = useRef<HTMLElement>(null);
   
   // Track scroll within THIS section specifically
